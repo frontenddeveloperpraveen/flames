@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Congratulations !!</h1>
+        <h3>Result : <span>{{result}}</span></h3>
+        <form action="/home" method="get">
+        <button type="submit">Home</button> </form>
+    </div>
+
+<style>
+
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: #63f1f1;
+}
+.container{
+   border-color: black; 
+   border: 1px solid black;
+   width: 350px;
+   height: 300px;
+   text-align: center;
+   background-color: white;
+   border-radius: 5px;
+
+}
+div{
+    margin: auto;
+
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+button{
+
+    border-radius: 3px;
+    width: 80px;
+    position: relative;
+    top: 60px;
+    background-color: #63f1f1;
+    font-weight: bold;
+}
+h3{
+    position: relative;
+    top: 30px;
+}
+
+span{
+    color: #ff0000;
+}
+</style>
+
+</body>
+
+</html>
